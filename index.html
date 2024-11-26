@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizarding Wonders</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://i.imgur.com/XYZ123.png" alt="Wizarding Wonders Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#spells">Spells</a></li>
+                <li><a href="#houses">Houses</a></li>
+                <li><a href="#shop">Magic Shop</a></li>
+                <li><button id="loginBtn" class="login-btn">Login</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Welcome, Wizard!</h2>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Alohomora! (Login)</button>
+            </form>
+            <p>New to Wizarding? <a href="#" id="registerLink">Register here</a></p>
+        </div>
+    </div>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to Wizarding Wonders</h1>
+            <p>Discover the Magic Within</p>
+            <div class="floating-wands"></div>
+        </section>
+
+        <!-- Add more sections as needed -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wizarding Wonders. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
